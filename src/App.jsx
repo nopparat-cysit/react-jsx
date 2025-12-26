@@ -19,8 +19,8 @@ function IntroSection() {
     link: "article-link"
   }
   return (
-    <div>
-      <h3 className={articleStyles.container}>TechUp Thailand</h3>
+    <div className={articleStyles.container}>
+      <h3 className={articleStyles.title}>TechUp Thailand</h3>
       <p className={articleStyles.body}>เตรียมพบกับหลักสูตรปั้นคุณเป็น Software Developer ภายใน 4 เดือน</p>
       <a href="https://www.techupth.com/" target="blank" className={articleStyles.link}>
         techupth.com
